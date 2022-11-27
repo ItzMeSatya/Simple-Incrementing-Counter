@@ -1,0 +1,42 @@
+<!-- You can find the CodePen link for this Project here: https://codepen.io/20071A6951/pen/GRdwMmO -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <!---- Title of the Page --->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3798/3798413.png">
+    <link rel="stylesheet" href="Counter.css">
+</head>
+
+<body>
+    <div id="box">
+        <br>
+        <h1>Counter:</h1>
+        <!---- 'Counter' Heading --->
+        <h2 id="counter">0</h2>
+        <!---- Count's Display --->
+        <div>
+            <button id="decrement" onclick="decrement()">-</button>
+            <!---- Button to Subtract/Reduce Count --->
+            <button id="increment" onclick="increment()">+</button>
+            <!---- Button to Add Count --->
+        </div>
+        <br><br>
+        <button id="reset" onclick="reset()">RESET</button>
+        <!---- Resets the Count & Count Entries --->
+        <button id="save" onclick="save()">SAVE</button>
+        <!---- Saves the Data and Displays it in Count Entries --->
+        <button id="disp" onclick="disp()">DISPLAY (CONSOLE)</button>
+        <!---- Displays the Count in Console of the Browser --->
+        <p id="prev">Count Entries: </p>
+        <!---- Displays previous counts --->
+        <script src="Counter.js"></script>
+        <br>
+    </div>
+</body>
+
+</html>
